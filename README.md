@@ -32,7 +32,7 @@ Alternatively, you can manually create the folders using your file explorer.
 
 Create a `.env` file in the root directory to manage environment-specific variables. Here's the format for your `.env` file:
 
-```
+```bash
 PORT=5000
 MONGO_URL=mongodb://localhost:27017/your-database-name
 ```
