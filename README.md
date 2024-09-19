@@ -60,4 +60,4 @@ This will start the development server on the port you specified in your `.env` 
 
 ---
 
-This `README.md` now uses `npm run start` as the command to start the application.
+This `README.md` now uses `npm run start` as the command to start the whole application.
