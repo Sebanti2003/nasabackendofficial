@@ -1,0 +1,26 @@
+{
+  "name": "nasaprojectbackend",
+  "version": "1.0.0",
+  "description": "nasa project for hackathon and here we will be putting the backend part of it",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nasa",
+    "hackathon",
+    "space"
+  ],
+  "author": "Sebanti and Himadri",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
+    "nodemon": "^3.1.6"
+  }
+}
