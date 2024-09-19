@@ -30,7 +30,7 @@ Alternatively, you can manually create the folders using your file explorer.
 
 ### 3. Add Environment Variables
 
-Create a `.env` file in the root directory to manage environment-specific variables. Here's the format for your `.env` file:
+Create a `.env` file in the root directory to manage environment-specific variables. All the info for env is given in the .env.sample file.Do check it out that first. Here's the format for your `.env` file:
 
 ```bash
 PORT=5000
