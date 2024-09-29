@@ -27,7 +27,6 @@ const planetSchema = new mongoose.Schema({
     },
     diameter: {
         type: String,
-        required: true
     },
     gravity: {
         type: String,
