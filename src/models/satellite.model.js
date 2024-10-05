@@ -35,4 +35,4 @@ const satelliteSchema = new mongoose.Schema({
     },
 })
 
-export const Satellite= mongoose.model("Satellite", SatelliteSchema);
+export const Satellite= mongoose.model("Satellite", satelliteSchema);

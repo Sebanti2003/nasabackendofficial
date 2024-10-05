@@ -1,4 +1,4 @@
-import { Satellite, Satellite, Satellite } from "../models/satellite.model";
+import { Satellite } from "../models/satellite.model.js";
 
 export const createSatellite = async (req, res) => {
     try {
