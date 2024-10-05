@@ -25,6 +25,7 @@ const asteroidSchema = new mongoose.Schema({
     },
     is_potentially_hazardous_asteroid: {
         type: Boolean,
+        default: false
         
     },
     close_approach_data: [
