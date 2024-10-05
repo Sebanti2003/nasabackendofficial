@@ -22,24 +22,24 @@ export const createSatellite = async (req, res) => {
         operational_status,
         lifespan_years
     );
-    if (
-        !name ||
-        !launch_date ||
-        !orbit_type||
-        ! operator ||
-        !mission_type ||
-        ! mass_kg ||
-        !operational_status||
-        !lifespan_years 
+    // if (
+    //     !name ||
+    //     !launch_date ||
+    //     !orbit_type||
+    //     ! operator ||
+    //     !mission_type ||
+    //     ! mass_kg ||
+    //     !operational_status||
+    //     !lifespan_years 
 
-      ){
-        return res.status(400).json({
-          success: false,
-          message: "All fields are required",
+    //   ){
+    //     return res.status(400).json({
+    //       success: false,
+    //       message: "All fields are required",
   
-        });
-    }
-    const Satellite = await Satellite.create({
+    //     });
+    // }
+    const Satellite2 = await Satellite.create({
         name,
         launch_date,
         orbit_type,
@@ -54,7 +54,7 @@ export const createSatellite = async (req, res) => {
       return res.status(201).json({
         success: true,
         message: "Satallite data accessed successfully",
-        data: Satellite,
+        data: Satellite2,
       });
     }
     catch (error) {

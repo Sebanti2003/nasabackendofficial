@@ -7,7 +7,6 @@ const satelliteSchema = new mongoose.Schema({
     },
     launch_date: {
         type: Date,
-        required: true
     },
     orbit_type: {
         type: String,
